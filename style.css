@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  outline: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.selfcare {
+  width: 70vw;
+}
+.iconsheader {
+  width: 15.5vw;
+}
+
+.box-header {
+  width: 10vw;
+  padding: 10px;
+}
+
+.box-main {
+  width: 100%;
+}
+
+.escrita-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+h2 {
+  width: 13vw;
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+}
+
+.pmain {
+  width: 15vw;
+  font-weight: bold;
+  font-size: 1 rem;
+}
+
+.linha {
+  border-bottom: solid 1px grey;
+  width: 100%;
+}
+
+.box-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.foto-card {
+  width: 18vw;
+  display: block;
+}
+
+.cards {
+  width: 25vw;
+  padding: 10px;
+  justify-content: center;
+}
+
+figure {
+  background-color: green;
+  width: 18vw;
+  border-radius: 10px;
+  display: block;
+}
+
+.foto-card:hover {
+  opacity: 0.5;
+}
+p {
+  width: 17vw;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h3 {
+  padding-top: 10px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  width: 8vw;
+  height: 5vh;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: none;
+}
+
+button:hover {
+  background-color: #512200;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.box-footer1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+
+nav {
+  width: 45vw;
+  display: flex;
+  display: column;
+  justify-content: start;
+}
+
+li {
+  list-style-type: none;
+}
+
+.newslatter {
+  width: 39vw;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 5px;
+  width: 41vw;
+}
+
+a {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  font-size: 20px;
+  color: #0d730d;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+input {
+  width: 20vw;
+  height: 7vh;
+}
+input[type="email"] {
+  outline: none;
+}
+
+input::placeholder {
+  width: 20vw;
+  padding-left: 18px;
+  font-weight: bold;
+}
+
+.button-footer {
+  background-color: green;
+  color: white;
+  border-radius: 5, 5, 0, 0;
+  width: 10vw;
+  height: 7vh;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: none;
+}
+
+.box-footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.redes {
+  padding: 10px;
+}
+
+.master {
+  padding: 5px;
+}
+
+.visa {
+  padding: 10px;
+}
+
+@media (min-width: 663px) and (max-width: 996px) {
+  .box-header {
+    width: 17vw;
+  }
+  h2 {
+    width: 22vw;
+  }
+
+  input::placeholder {
+    width: 40vw;
+    padding-left: 7px;
+    font-weight: bold;
+  }
+  input {
+    width: 21vw;
+    height: 7vh;
+  }
+}
+
+@media (min-width: 396px) and (max-width: 662px) {
+  .box-header {
+    width: 24vw;
+  }
+  .iconsheader {
+    width: 30vw;
+  }
+  .selfcare {
+    width: 20vw;
+  }
+  h2 {
+    width: 34vw;
+  }
+
+  .pmain {
+    width: 22vw;
+  }
+
+  .cards {
+    width: 30vw;
+  }
+  .foto-card {
+    width: 25vw;
+  }
+
+  figure {
+    width: 25vw;
+  }
+  button {
+    width: 13vw;
+    height: 6vh;
+  }
+
+  .box-footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 40vw;
+    height: 5vh;
+  }
+  input::placeholder {
+    width: 32vw;
+    padding-left: 10px;
+  }
+
+  .button-footer {
+    width: 100%;
+    height: 5vh;
+  }
+  h4 {
+    width: 45vw;
+    text-align: center;
+  }
+  a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 396px) {
+  .box-header {
+    width: 28vw;
+  }
+  .iconsheader {
+    width: 30vw;
+  }
+  .selfcare {
+    width: 36vw;
+  }
+  h2 {
+    width: 42.9vw;
+  }
+
+  .pmain {
+    width: 29vw;
+  }
+
+  .cards {
+    width: 80vw;
+  }
+  .foto-card {
+    width: 60vw;
+  }
+  figure {
+    width: 60vw;
+  }
+  button {
+    width: 18vw;
+    height: 6vh;
+  }
+  .box-footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 60vw;
+    height: 5vh;
+  }
+  input::placeholder {
+    width: 50vw;
+  }
+
+  .button-footer {
+    width: 60vw;
+    height: 5vh;
+  }
+  h4 {
+    width: 50vw;
+    text-align: center;
+  }
+  a {
+    font-size: 1rem;
+  }
+  nav {
+    width: 38vw;
+  }
+
+  .newslatter {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 270px) and (max-width: 339px) {
+  .box-header {
+    width: 36vw;
+  }
+  .iconsheader {
+    width: 33vw;
+  }
+  .selfcare {
+    width: 36vw;
+  }
+  h2 {
+    width: 51vw;
+  }
+
+  .pmain {
+    width: 29vw;
+  }
+
+  .cards {
+    width: 80vw;
+  }
+  .foto-card {
+    width: 60vw;
+  }
+  figure {
+    width: 60vw;
+  }
+  button {
+    width: 20vw;
+    height: 6vh;
+  }
+  .box-footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 60vw;
+    height: 5vh;
+  }
+  input::placeholder {
+    width: 50vw;
+  }
+
+  .button-footer {
+    width: 60vw;
+    height: 5vh;
+  }
+  h4 {
+    width: 50vw;
+    text-align: center;
+  }
+  a {
+    font-size: 1rem;
+  }
+  nav {
+    width: 38vw;
+  }
+
+  .newslatter {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 164px) and (max-width: 269px) {
+  header {
+    flex-direction: column;
+  }
+  .box-header {
+    width: 50vw;
+  }
+  .iconsheader {
+    width: 44vw;
+  }
+  .selfcare {
+    width: 44vw;
+  }
+  .escrita-main {
+    flex-direction: column;
+  }
+  h2 {
+    width: 53vw;
+    font-size: 0.8rem;
+  }
+
+  .pmain {
+    width: 36vw;
+    font-size: 0.7rem;
+  }
+  .box-cards {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards {
+    width: 85vw;
+  }
+  .foto-card {
+    width: 56vw;
+  }
+  figure {
+    width: 56vw;
+  }
+  button {
+    width: 33vw;
+    height: 6vh;
+  }
+  .box-footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    height: 4vh;
+    width: 83vw;
+    padding: 0;
+  }
+  input::placeholder {
+    width: 103vw;
+    padding-left: 0;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+
+  .button-footer {
+    width: 80vw;
+    height: 5vh;
+  }
+  h4 {
+    width: 58vw;
+    text-align: center;
+    font-size: 1rem;
+  }
+  a {
+    font-size: 0.9rem;
+  }
+  nav {
+    width: 38vw;
+  }
+
+  .newslatter {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 162px) {
+  header {
+    flex-direction: column;
+  }
+  .box-header {
+    width: 55vw;
+  }
+  .iconsheader {
+    width: 52vw;
+  }
+  .selfcare {
+    width: 52vw;
+  }
+  .escrita-main {
+    flex-direction: column;
+  }
+  h2 {
+    width: 53vw;
+    font-size: 0.8rem;
+  }
+
+  .pmain {
+    width: 36vw;
+    font-size: 0.7rem;
+  }
+  .box-cards {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards {
+    width: 85vw;
+  }
+  .foto-card {
+    width: 56vw;
+  }
+  figure {
+    width: 56vw;
+  }
+  button {
+    width: 55vw;
+    height: 12vh;
+  }
+  .box-footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    height: 25vh;
+    width: 83vw;
+    padding: 0;
+  }
+  input::placeholder {
+    width: 103vw;
+    padding-left: 0;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+
+  .button-footer {
+    width: 80vw;
+    height: 12vh;
+  }
+  h4 {
+    width: 58vw;
+    text-align: center;
+    font-size: 1rem;
+  }
+  a {
+    font-size: 0.9rem;
+  }
+  nav {
+    width: 38vw;
+  }
+
+  .newslatter {
+    width: 80vw;
+  }
+}
